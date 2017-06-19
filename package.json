@@ -1,0 +1,40 @@
+{
+  "name": "data-visualizations",
+  "version": "1.0.0",
+  "description": "Render data according to needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --progress --colors --inline"
+  },
+  "author": "Krishna Vikas Minnamareddy",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "latest",
+    "babel-loader": "^6.1",
+    "babel-preset-es2015":"latest",
+    "babel-preset-stage-2": "latest",
+    "babel-preset-react": "latest",
+    "babel-polyfill": "latest",
+    "d3": "latest",
+    "material-ui": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-inline-transition-group": "latest",
+    "prop-types": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "babel-eslint":"latest",
+    "eslint-loader": "latest",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react":"latest",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-import": "latest",
+    "eslint-import-resolver-webpack": "latest"
+  }
+}
